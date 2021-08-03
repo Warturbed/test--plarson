@@ -1,0 +1,23 @@
+@import 'header/header';
+@import 'footer/footer';
+@import 'content/content';
+@import 'sidebar/sidebar';
+@import 'chat/chat';
+
+* {
+	font-size: 16px;
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.modal {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
